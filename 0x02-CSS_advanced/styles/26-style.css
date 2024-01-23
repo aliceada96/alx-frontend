@@ -609,8 +609,8 @@ template {
 
 .card-testimonial .card-avatar {
     border-radius: 50%;
-    width: 10vmin;
-    height: 10vmin;
+    width: 10rem;
+    height: 10rem;
 }
 
 .card-testimonial .card-quote cite {
