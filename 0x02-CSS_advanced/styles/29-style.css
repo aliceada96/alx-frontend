@@ -538,10 +538,12 @@ template {
     height: 20rem;
   }
 
-  .nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
+  .nav .nav-item:hover::before {
     background-color: var(--color-primary);
     width: 100%;
+  }
+  .nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
   }
 
   ul.row {
